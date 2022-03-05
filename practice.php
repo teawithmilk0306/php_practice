@@ -45,7 +45,7 @@ $calendar_2018 = [
 // 12月を表示する
 echo $calendar_2018["December"] . "\n";
 
-$name = "藤巻由美";
+$name = "由美";
 if ($name == "藤巻由美"){
   echo "私は藤巻由美です" . "\n";
 } else {
@@ -74,3 +74,31 @@ for ($i = $start; $i <= $end; $i++) {
   }
 }
 
+
+function nibai($a){
+  return $a*2;
+}
+echo nibai(1.5);
+echo nibai(2);
+
+// function nibai($a){
+// return $a*2;
+
+// }
+// echo nibai(4). "\n";
+// echo nibai(2.5). "\n";
+
+function sum($a,$b){
+  return $a+$b;
+}
+echo sum($a=2,$b=3);
+
+function max_array($arry){
+  $max_number = $arr(0);
+  foreach($arry as $a){
+    $a = max_number
+  }
+  return $max_number;
+  }
+  echo max_array(5,10,15,20,15,30);
+  
